@@ -296,14 +296,19 @@ body {
 }
 
 /*=============================================
-   Responsive design (media queries)
+   Responsive design (Mobile <= 375px)
 =============================================*/
 @media screen and (max-width: 375px) {
+  /* Main layout */
+
   .main-container {
     flex-direction: column;
     padding-top: 20px;
     padding-bottom: 20px;
   }
+
+  /* Right grid layout */
+
   #right-box {
     order: 1;
     grid-template-columns: 100%;
@@ -316,14 +321,20 @@ body {
       "c6"
       "c5";
   }
+
+  /* Left grid layout */
+
   #left-box {
     grid-template-columns: 100%;
     grid-template-rows: 220px 350px;
   }
 
+  /* Card: Social Media 10x Faster with AI */
+
   #social-media img {
     width: 200px;
   }
+
   #social-media header {
     padding: 30px;
     padding-top: 10px;
@@ -332,13 +343,20 @@ body {
     letter-spacing: -1.3px;
     padding-bottom: 20px;
   }
+
   #social-media .footer-text {
     font-size: 20px;
   }
+
+  /* Card: Manage multiple accounts and platforms */
+
   #manage-account header {
     font-size: 25px;
     line-height: 25px;
   }
+
+  /* Card: Maintain a consistent posting schedule */
+
   #maintaining header {
     font-size: 20px;
     line-height: 20px;
@@ -346,67 +364,93 @@ body {
     padding-bottom: 5px;
     padding-top: 10px;
   }
+
   #maintaining img {
     width: 210px;
   }
+
+  /* Card: Schedule to social media */
+
   #social-schedule {
     padding: 15px;
   }
+
   #social-schedule header {
     padding: 10px;
     text-align: center;
   }
+
   #social-schedule img {
     padding-top: 15px;
     width: 100%;
     height: auto;
   }
+
   #social-schedule .footer-text {
     padding-left: 20px;
     padding-right: 20px;
     font-size: 15px;
     text-align: center;
   }
+
+  /* Card: Growth followers with non-stop content */
+
   #followers {
     flex-direction: column;
   }
+
   #followers img {
     width: 220px;
   }
+
   #followers header {
     text-align: center;
     font-size: 25px;
     padding-right: 50px;
     padding-left: 50px;
   }
+
+  /* Card: Faster audience growth */
+
   #audience {
     justify-content: flex-start;
     align-items: flex-start;
   }
+
   #audience img {
-    margin: 0px;
+    margin: 0;
     padding-left: 30px;
   }
+
   #audience .footer-text {
     font-size: 15px;
-    padding: 5px 0px 15px 30px;
+    padding: 5px 0 15px 30px;
   }
+
+  /* Card: Create & schedule content quicker */
+
   #schedule-creatore {
     display: block;
   }
+
   #schedule-creatore header {
     padding: 10px;
     font-size: 28px;
   }
+
   #schedule-creatore img {
     width: 150px;
   }
+
+  /* Card: Write your content using AI */
+
   #write-content header {
     padding: 25px;
     padding-right: 30px;
     font-size: 30px;
     line-height: 35px;
   }
+
   #write-content img {
     padding: 5px;
     width: 200px;
