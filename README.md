@@ -4,6 +4,6 @@ Responsive bento grid landing page built with HTML and CSS.
 
 ## Built With
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - CSS Grid
