@@ -307,7 +307,7 @@ body {
   #right-box {
     order: 1;
     grid-template-columns: 100%;
-    grid-template-rows: 250px 150px 180px 450px 300px 180px;
+    grid-template-rows: 250px 150px 180px 450px 350px 180px;
     grid-template-areas:
       "c1"
       "c3"
@@ -318,7 +318,7 @@ body {
   }
   #left-box {
     grid-template-columns: 100%;
-    grid-template-rows: 220px 300px;
+    grid-template-rows: 220px 350px;
   }
 
   #social-media img {
@@ -366,5 +366,49 @@ body {
     padding-right: 20px;
     font-size: 15px;
     text-align: center;
+  }
+  #followers {
+    flex-direction: column;
+  }
+  #followers img {
+    width: 220px;
+  }
+  #followers header {
+    text-align: center;
+    font-size: 25px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  #audience {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  #audience img {
+    margin: 0px;
+    padding-left: 30px;
+  }
+  #audience .footer-text {
+    font-size: 15px;
+    padding: 5px 0px 15px 30px;
+  }
+  #schedule-creatore {
+    display: block;
+  }
+  #schedule-creatore header {
+    padding: 10px;
+    font-size: 28px;
+  }
+  #schedule-creatore img {
+    width: 150px;
+  }
+  #write-content header {
+    padding: 25px;
+    padding-right: 30px;
+    font-size: 30px;
+    line-height: 35px;
+  }
+  #write-content img {
+    padding: 5px;
+    width: 200px;
   }
 }
