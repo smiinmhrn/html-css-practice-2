@@ -298,7 +298,20 @@ body {
 /*=============================================
    Responsive design (Mobile <= 375px)
 =============================================*/
-@media screen and (max-width: 375px) {
+
+@media screen and (max-width: 730px) {
+  .main-container {
+    flex-direction: column;
+  }
+  #right-box {
+    order: 1;
+  }
+  #left-box {
+    grid-template-areas: "c1 c2";
+    grid-template-rows: 90%;
+  }
+}
+@media screen and (max-width: 527px) {
   /* Main layout */
 
   .main-container {
