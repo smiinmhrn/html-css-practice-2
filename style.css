@@ -300,9 +300,14 @@ body {
 =============================================*/
 
 @media screen and (max-width: 730px) {
+  /* Main layout */
+
   .main-container {
     flex-direction: column;
   }
+
+  /* Right and Left grid layout */
+
   #right-box {
     order: 1;
   }
