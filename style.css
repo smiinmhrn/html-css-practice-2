@@ -316,6 +316,7 @@ body {
     grid-template-rows: 90%;
   }
 }
+
 @media screen and (max-width: 527px) {
   /* Main layout */
 
@@ -345,6 +346,10 @@ body {
   #left-box {
     grid-template-columns: 100%;
     grid-template-rows: 220px 350px;
+    grid-template-areas:
+      "c1"
+      "c2";
+    gap: 20px;
   }
 
   /* Card: Social Media 10x Faster with AI */
